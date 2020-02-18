@@ -1,0 +1,5 @@
+DBNAME=[database name]
+DBUSER=[user name for your database]
+DBPASSWORD=[user's database password]
+AUTHSECRET=[secret for JWT]
+EXPIRESSECONDS=3000 
