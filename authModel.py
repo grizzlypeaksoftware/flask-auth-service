@@ -132,7 +132,7 @@ def checkBlacklist(token):
             cur.close()
             conn.close()
 
-        return False
+        return True
     finally:
         if conn is not None:
             cur.close()
